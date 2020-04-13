@@ -14,9 +14,9 @@ public class Main {
         
         QuanLyChuyenXe QLCX = new QuanLyChuyenXe();
         
-        ChuyenXeNoiThanh CXNoT1 = new ChuyenXeNoiThanh(30,30.1,"Phạm Văn Cường","CX01","59130221",200.0);
+        ChuyenXeNoiThanh CXNoT1 = new ChuyenXeNoiThanh(30,100,"Phạm Văn Cường","CX01","59130221",200.0);
         ChuyenXeNgoaiThanh CXNgT1 = new ChuyenXeNgoaiThanh("NinhHoa",10,"Truong hoang khoa","CX02","59130221",300.0);
-        ChuyenXeNoiThanh CXNoT2 = new ChuyenXeNoiThanh(25,30.1,"Pham Tài","CX03","59130221",400.0);
+        ChuyenXeNoiThanh CXNoT2 = new ChuyenXeNoiThanh(25,30.5,"Pham Tài","CX03","59130221",400.0);
         ChuyenXeNgoaiThanh CXNgT2 = new ChuyenXeNgoaiThanh("Phú Yên",24,"Lý Toàn","CX04","59130221",500.0);
         
         QLCX.themCX(CXNoT1);
